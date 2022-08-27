@@ -2,7 +2,9 @@ import pandas as pd
 import yfinance as yf
 import altair as alt
 import streamlit as st
+import tkinter as tk
 from newsapi import NewsApiClient
+
 
 st.title('GAFA株価可視化& NEWS')
 
